@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Computer Graphics Summative Assignment</title>
+    <style>
+      body {
+        margin: 0;
+        border: 0;
+        background-color: white;
+      }
+    </style>
+  </head>
+
+  <body onload="main()">
+    <canvas id="room" width="700" height="700" style="float: left;">Please use a browser that supports "canvas"</canvas>
+    <canvas id="camera" width="100vh" height="100vh" style="float: left; position: absolute;"></canvas>
+    <script src="lib/webgl-utils.js"></script>
+    <script src="lib/webgl-debug.js"></script>
+    <script src="lib/cuon-utils.js"></script>
+    <script src="lib/cuon-matrix.js"></script>
+    <script src="index.js"></script>
+    <h1 style="margin: 0;">Computer Graphics Summative Assignment</h1>
+    <p>A - move left, D - move right, W - move up, S - move down, Q - move backward, E - move forward</p>
+    <p>Use arrows to look around</p>
+    <p>1 - turn on/off universal light</p>
+    <p>2 - turn on/off a lamp</p>
+    <p>3 - open/close a party box</p>
+    <p>4 - turn on/off a speaker (no sound)</p>
+    <p>5 - hold to move chairs</p>
+    <p>6 - enable/disable textures</p>
+  </body>
+</html>
